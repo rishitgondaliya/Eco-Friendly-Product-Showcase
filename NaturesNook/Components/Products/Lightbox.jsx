@@ -25,13 +25,29 @@ const Lightbox = ({ images, initialIndex, onClose }) => {
             <Button
               variant="outlined"
               onClick={handlePrev}
-              className="border-gray-400 text-gray-800 hover:bg-gray-200">
+              sx={{
+
+                '&:hover': {
+                  backgroundColor: '#036570',
+                  color: '#fff',
+                  borderColor: '#036570',
+                },
+              }}
+            >
               Previous
             </Button>
             <Button
               variant="outlined"
               onClick={handleNext}
-              className="border-gray-400 text-gray-800 hover:bg-gray-200">
+              sx={{
+                marginRight: 2,
+                '&:hover': {
+                  backgroundColor: '#036570',
+                  color: '#fff',
+                  borderColor: '#036570',
+                },
+              }}
+            >
               Next
             </Button>
           </div>
