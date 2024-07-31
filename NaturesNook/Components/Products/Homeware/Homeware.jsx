@@ -188,7 +188,7 @@ const images = [
       <React.Fragment>
         <p>Nature&apos;s nook&apos;s reusable water bottle cleaning brushes are made using sustainable, ethically sourced bamboo and natural, durable sisal fibres. The long handle and textured grip ensures that our bottle brushes can reach every corner of your water bottle’s interior.</p>
         <br />
-        <p>Our zero waste reusable bottle brushes are packaged using eco-friendly recycled kraft paper and the entire product is 100% plastic-free, ensuring that nothing you order from Jungle Culture leaves a wasteful footprint.</p>        <br />
+        <p>Our zero waste reusable bottle brushes are packaged using eco-friendly recycled kraft paper and the entire product is 100% plastic-free, ensuring that nothing you order from Nature&apos;s nook leaves a wasteful footprint.</p>        <br />
         <h3 className="text-lg font-medium">Set Contains:</h3>
         <ul>
           <li>1 x Long handle bottle cleaner</li>
@@ -277,7 +277,7 @@ const images = [
   },
 ];
 
-const Homeware = ({ onBack }) => {
+const Homeware = ({ onBack, onNext }) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(null);
 
@@ -295,14 +295,37 @@ const Homeware = ({ onBack }) => {
     <div className="w-11/12 mx-auto">
       <div className="disc p-8">
         <div className="flex justify-between items-center">
-          <h2 className="text-3xl text-gray-700 font-semibold underline">Sustainable Homeware</h2>
-          <Button
-            variant="contained"
-            onClick={onBack}
-            sx={{ marginRight: 4 }}
-          >
-            Back to Categories
-          </Button>
+          <h2 className="text-3xl text-gray-700 font-semibold underline underline-offset-8">Sustainable Homeware</h2>
+          <div>
+            <Button
+              variant="outlined"
+              onClick={onBack}
+              sx={{
+                marginRight: 2,
+                '&:hover': {
+                  backgroundColor: '#036570',
+                  color: '#fff',
+                  borderColor: '#036570',
+                },
+              }}
+            >
+              Back to Categories
+            </Button>
+            <Button
+              variant="outlined"
+              onClick={onNext}
+              sx={{
+                marginRight: 2,
+                '&:hover': {
+                  backgroundColor: '#036570',
+                  color: '#fff',
+                  borderColor: '#036570',
+                },
+              }}
+            >
+              Next
+            </Button>
+          </div>
         </div> <br />
         <p className="text-xl text-gray-600">
           Nature&apos;s nook&apos;s range of sustainable homeware products are handmade by artisan craftspeople in Vietnam. Add texture and flair to your home and kitchen with a responsibly sourced wooden bowl set, some coconut shell candles or maybe a bamboo cup for smoothies! <br /> <br /> Our zero waste homeware products are all packaged 100% plastic free using eco-friendly upcycled kraft paper boxes and recycled tissue paper.
@@ -310,7 +333,15 @@ const Homeware = ({ onBack }) => {
       </div>
       <div className="products flex flex-wrap justify-evenly items-center m-8 p-8 pt-0">
         {images.map((image, index) => (
-          <Card key={index} sx={{ maxWidth: 250, margin: 2 }} onClick={() => handleOpenLightbox(index)}>
+          <Card key={index} sx={{
+            maxWidth: 250,
+            margin: 2,
+            transition: "box-shadow 0.3s, transform 0.3s",
+            "&:hover": {
+              boxShadow: 10,
+              transform: "Scale(1.05)",
+            },
+          }} onClick={() => handleOpenLightbox(index)}>
             <CardActionArea>
               <CardMedia
                 component="img"
