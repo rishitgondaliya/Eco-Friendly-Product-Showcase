@@ -150,7 +150,7 @@ const images = [
   },
 ];
 
-const Soaps = ({ onBack }) => {
+const Soaps = ({ onBack, onNext, onPrevious }) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(null);
 
@@ -168,14 +168,37 @@ const Soaps = ({ onBack }) => {
     <div className="w-11/12 mx-auto">
       <div className="disc p-8">
         <div className="flex justify-between items-center">
-          <h2 className="text-3xl text-gray-700 font-semibold underline">Natural Soaps</h2>
-          <Button
-            variant="contained"
-            onClick={onBack}
-            sx={{ marginRight: 4 }}
-          >
-            Back to Categories
-          </Button>
+          <h2 className="text-3xl text-gray-700 font-semibold underline underline-offset-8">Natural Soaps</h2>
+          <div>
+            <Button
+              variant="outlined"
+              onClick={onPrevious}
+              sx={{
+                marginRight: 2,
+                '&:hover': {
+                  backgroundColor: '#036570',
+                  color: '#fff',
+                  borderColor: '#036570',
+                },
+              }}
+            >
+              Previous
+            </Button>
+            <Button
+              variant="outlined"
+              onClick={onNext}
+              sx={{
+                marginRight: 2,
+                '&:hover': {
+                  backgroundColor: '#036570',
+                  color: '#fff',
+                  borderColor: '#036570',
+                },
+              }}
+            >
+              Next
+            </Button>
+          </div>
         </div> <br />
         <p className="text-xl text-gray-600">
           Nature&apos;s nook&apos;s range of natural soaps are handmade in Vietnam by artisan soap makers. Our entire range of cold-pressed soaps are vegan friendly, cruelty-free, palm oil free and plastic-free. Switching to a plastic-free body soap is an important, but easy step in creating a zero waste bathroom!
@@ -185,7 +208,15 @@ const Soaps = ({ onBack }) => {
       </div>
       <div className="products flex flex-wrap justify-evenly items-center m-8 p-8 pt-0">
         {images.map((image, index) => (
-          <Card key={index} sx={{ maxWidth: 250, margin: 2 }} onClick={() => handleOpenLightbox(index)}>
+          <Card key={index} sx={{
+            maxWidth: 250,
+            margin: 2,
+            transition: "box-shadow 0.3s, transform 0.3s",
+            "&:hover": {
+              boxShadow: 10,
+              transform: "Scale(1.05)",
+            },
+          }} onClick={() => handleOpenLightbox(index)}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -227,7 +258,7 @@ const Soaps = ({ onBack }) => {
           <br />
           <p>Visit each individual soap page for more information on the characteristics and properties of our natural body soaps!</p>
           <br />
-          <h1 className="text-3xl text-gray-700 font-medium">FAQs - Natural Soap Bars</h1>
+          <h1 className="text-2xl text-gray-700 font-medium">FAQs - Natural Soap Bars</h1>
           <br />
           <h1 className="text-xl text-gray-700 font-medium">Are your natural soap bars cruelty-free?</h1>
           <br />
@@ -254,7 +285,7 @@ const Soaps = ({ onBack }) => {
             </ul>
           </p>
           <br />
-          <h1 className="text-3xl text-gray-700 font-medium">Benefits of Our Natural Soap Bars</h1>
+          <h1 className="text-2xl text-gray-700 font-medium">Benefits of Our Natural Soap Bars</h1>
           <br />
           <h1 className="text-xl text-gray-700 font-medium">Gentle on your skin</h1>
           <br />
