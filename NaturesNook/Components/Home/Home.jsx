@@ -1,15 +1,19 @@
-import img1 from '../../src/assets/item1.jpg'
+import DisplayMain from './DisplayMain'
+import SectionSecond from './SectionSecond'
+import SectionThird from './SectionThird'
+import SectionFour from './SectionFour'
+import SectionFive from './SectionFive'
+import SectionSix from './SectionSix'
 
 export default function Home(){
     return(
         <>
-            <div className="flex bg-transparent">
-                <div className="w-full h-svh">
-                    <img src={img1} alt="" />
-                    {/* <h1>hello</h1> */}
-                </div>
-                
-            </div>
+            <DisplayMain />
+            <SectionSecond />
+            <SectionThird />
+            <SectionFour />
+            <SectionFive />
+            <SectionSix />
         </>
     )
 }
