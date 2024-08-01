@@ -31,9 +31,19 @@ export default function Footer() {
                       Home
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-4">
                     <Link to="/about" className="hover:underline">
                       About
+                    </Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link to="/product" className="hover:underline">
+                      Products
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contact" className="hover:underline">
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -97,20 +107,19 @@ export default function Footer() {
               . All Rights Reserved.
             </span>
             <div className="flex text-lg mt-4 space-x-5 sm:justify-center sm:mt-0">
-              <Link to="#" className="text-gray-500 hover:text-gray-900">
+              <Link to="#" className="text-gray-500 hover:text-[#036570]">
                 <FontAwesomeIcon icon={faFacebook} className="text-2xl" />
               </Link>
-
-              <Link to="#" className="text-gray-500 hover:text-gray-900">
+              <Link to="#" className="text-gray-500 hover:text-[#036570]">
                 <FontAwesomeIcon icon={faTwitter} className="text-2xl" />
               </Link>
-              <Link to="#" className="text-gray-500 hover:text-gray-900">
+              <Link to="#" className="text-gray-500 hover:text-[#036570]">
                 <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
               </Link>
-              <Link to="https://github.com/rishitgondaliya" className="text-gray-500 hover:text-gray-900">
+              <Link to="https://github.com/rishitgondaliya" className="text-gray-500 hover:text-[#036570]">
                 <FontAwesomeIcon icon={faGithub} className="text-2xl" />
               </Link>
-              <Link to="#" className="text-gray-500 hover:text-gray-900">
+              <Link to="#" className="text-gray-500 hover:text-[#036570]">
                 <FontAwesomeIcon icon={faYoutube} className="text-2xl" />
               </Link>
             </div>
