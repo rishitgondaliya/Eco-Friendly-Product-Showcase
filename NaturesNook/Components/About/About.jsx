@@ -10,7 +10,7 @@ import img3 from '../../src/assets/about/image3.webp';
 export default function About() {
     const navigate = useNavigate();
     useEffect(() => {
-        AOS.init({ duration: 2000, once: false }); 
+        AOS.init({ duration: 2000, offset: 100, once: false }); 
     }, []);
     return (
         <div className="w-full">
@@ -57,7 +57,7 @@ export default function About() {
                 </div>
             </div>
             <h1 className="md:text-4xl text-3xl text-[#036570] font-semibold text-center md:m-12 m-8">What We Do..?</h1>
-            <div className="lg:w-4/5 w-11/12 mx-auto lg:flex" data-aos="fade-right">
+            <div className="lg:w-4/5 w-11/12 mx-auto lg:flex"  data-aos="fade-up">
                 <div className="lg:w-1/2 w-full lg:flex flex-col bg-gray-100 sm:px-8 sm:py-4 p-2 m-2 justify-center">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl text-gray-700 font-medium">Eco-Friendly Products For Shops</h1> <br />
                     <p className='md:text-xl text-base'>Nature&apos;s nook supplies businesses in over 30 countries with our range of best-selling products.</p>
@@ -84,11 +84,11 @@ export default function About() {
                     <img src={img1} alt="" className='w-full' />
                 </div>
             </div>
-            <div className="lg:w-4/5 w-11/12 mx-auto lg:flex lg:flex-row flex flex-col-reverse" data-aos="fade-left">
+            <div className="lg:w-4/5 w-11/12 mx-auto lg:flex lg:flex-row flex flex-col-reverse">
                 <div className="lg:w-1/2 w-full lg:flex m-2">
                     <img src={img2} alt="" className='w-full' />
                 </div>
-                <div className="lg:w-1/2 w-full lg:flex flex-col bg-gray-100 sm:px-8 sm:py-4 p-2 m-2 justify-center">
+                <div className="lg:w-1/2 w-full lg:flex flex-col bg-gray-100 sm:px-8 sm:py-4 p-2 m-2 justify-center" data-aos="fade-up">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl text-gray-700 font-medium">Custom Eco-Friendly Products</h1> <br />
                     <p className='md:text-xl text-base'>Our experienced design team based in the UK will work with you to create unique, high-quality bespoke products that reflect your brand’s eco credentials and inspire your customers to share your message.</p>
                     <br />
@@ -111,10 +111,10 @@ export default function About() {
                     </Button>
                 </div>
             </div>
-            <div className="lg:w-4/5 w-11/12 mx-auto lg:flex" data-aos="fade-right">
+            <div className="lg:w-4/5 w-11/12 mx-auto lg:flex" data-aos="fade-up">
                 <div className="lg:w-1/2 w-full lg:flex flex-col bg-gray-100 sm:px-8 sm:py-4 p-2 m-2 justify-center">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl text-gray-700 font-medium">Zero Waste Swaps</h1> <br />
-                    <p className='md:text-xl text-base'>Start your journey towards a zerowaste lifestyle today. Join our tribe on social media and show us how you’re using our products!  #nature&apos;snook</p>
+                    <p className='md:text-xl text-base'>Start your journey towards a zerowaste lifestyle today. Join our tribe on social media and show us how you’re using our products! #nature&apos;snook</p>
                     <br />
                     <Button
                         className='w-max'
