@@ -114,7 +114,7 @@ export default function About() {
             <div className="lg:w-4/5 w-11/12 mx-auto lg:flex" data-aos="fade-right">
                 <div className="lg:w-1/2 w-full lg:flex flex-col bg-gray-100 sm:px-8 sm:py-4 p-2 m-2 justify-center">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl text-gray-700 font-medium">Zero Waste Swaps</h1> <br />
-                    <p className='md:text-xl text-base'>Start your journey towards a zerowaste lifestyle today. Join our tribe on social media and show us how you’re using our products! #jungleculture</p>
+                    <p className='md:text-xl text-base'>Start your journey towards a zerowaste lifestyle today. Join our tribe on social media and show us how you’re using our products!  #nature&apos;snook</p>
                     <br />
                     <Button
                         className='w-max'
