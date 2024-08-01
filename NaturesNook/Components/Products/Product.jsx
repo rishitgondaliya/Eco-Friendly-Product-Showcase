@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -48,16 +50,20 @@ export default function Product() {
     }
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 2000, once: false }); 
+}, []);
+
   return (
     <div className="product-page">
       {selectedCategoryIndex === null ? (
         <>
-          <div className="mb-12 mt-4 p-4 text-xl text-center text-white bg-[#036570]">
+          <div className="mb-12 mt-4 p-4 text-xl text-center text-white bg-[#036570]" data-aos="fade-up">
             <p className="w-3/4 mx-auto">
               Nature&apos;s nook&apos;s philosophy is to inspire people to see the beauty & purpose in nature. We create earth-friendly and functional goods sourced directly from independent artisans & makers from all over the world. We believe in fair and honest manufacturing and care deeply about building relationships with the local communities that we work alongside.
             </p>
           </div>
-          <div className="categories flex flex-wrap justify-center my-4">
+          <div className="categories flex flex-wrap justify-center my-4" data-aos="fade-up">
             {categories.map((cat, index) => (
               <Card
                 key={index}
@@ -96,7 +102,7 @@ export default function Product() {
               </Card>
             ))}
           </div>
-          <div className="my-12 p-4 text-xl text-center text-white" style={{ backgroundColor: "#036570" }}>
+          <div className="my-12 p-4 text-xl text-center text-white bg-[#036570]" data-aos="fade-up">
             <p className="w-3/4 mx-auto">
               Nature&apos;s nook is a socially responsible company and everything we make is reusable, high-quality and absolutely affordable. Our values in eco sustainability motivates us to create earth friendly products with purpose that appeal to everyone. By making better decisions with the planet in mind, collectively we can make a difference.
             </p>
