@@ -6,7 +6,12 @@ export default {
     './index.html', // Include the HTML file at the root level
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '3/10': '30%',
+        '7/10': '70%',
+      },
+    },
   },
   plugins: [],
 }
