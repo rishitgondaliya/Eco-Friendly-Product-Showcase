@@ -36,7 +36,6 @@
     font-family: "Libre Baskerville";
 }
 
-
 .container-custom {
     text-align: center;
     background-color: #dbdbdb;
@@ -116,9 +115,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-
-
-
 }
 
 .card-stack {
@@ -149,9 +145,9 @@
     font-size: calc(16px + (25 - 16)*(100vw - 320px)/(1920 - 320));
 }
 
-.card p {
+/* .card p {
     font-size: calc(10px + (20 - 10)*(100vw - 320px)/(1920 - 320));
-}
+} */
 
 .card button {
     padding: calc(5px + (10 - 5)*(100vw - 320px)/(1920 - 320));

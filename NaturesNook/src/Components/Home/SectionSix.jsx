@@ -42,7 +42,7 @@ function SectionSix() {
                     {/* Left Side */}
                     <div className="w-1/2 p-8 flex items-center justify-center bg-gray-100">
                         <div>
-                            <p className="text-[#036570] text-6xl mb-4">{sections[index].content}</p>
+                            <p className="text-[#036570] md:text-6xl sm:text-4xl text-3xl mb-4">{sections[index].content}</p>
                             <p className="sm:text-xl text-base">{sections[index].content2}</p>
                         </div>
                     </div>

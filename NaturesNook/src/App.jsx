@@ -12,7 +12,6 @@ import Product from "./Components/Products/Product";
 import OurStory from './Components/Journal/OurStory'
 import SignIn from './Components/Auth/SignIn';
 import SignUp from './Components/Auth/SignUp';
-// import AuthForm from '../Components/Auth/AuthForm'
 import Cutlery from './Components/Journal/Cutlery';
 import Blogs from './Components/Journal/Blogs';
 import Razor from "./Components/Journal/Razor";
@@ -24,7 +23,6 @@ import ZeroWaste from './Components/Journal/ZeroWaste';
 import Straws from './Components/Journal/Straws';
 import Life from './Components/Journal/Life';
 import Soaps from './Components/Journal/Soaps';
-
 
 function App() {
   const router = createBrowserRouter(
