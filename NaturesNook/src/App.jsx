@@ -8,11 +8,12 @@ import {
 import Layout from "../Components/Layout/Layout";
 import Home from "../Components/Home/Home";
 import About from "../Components/About/About";
-import Journal from "../Components/Journal/Journal";
+import Contact from "../Components/Contact/Contact";
 import Product from "../Components/Products/Product";
 import OurStory from '../Components/Journal/OurStory'
-import SignIn from '../Components/Journal/SignIn';
-import SignUp from '../Components/Journal/SignUp';
+import SignIn from '../Components/Auth/SignIn';
+import SignUp from '../Components/Auth/SignUp';
+// import AuthForm from '../Components/Auth/AuthForm'
 import Cutlery from '../Components/Journal/Cutlery';
 import Blogs from '../Components/Journal/Blogs';
 import Razor from "../Components/Journal/Razor";
@@ -35,7 +36,8 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="product" element={<Product />} />
         <Route path="product/:category" element={<Product />} />
-        <Route path="journal" element={<Journal />} />
+        <Route path="journal" element={<Blogs />} />
+        <Route path="contact" element={<Contact />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/our-story' element={<OurStory />} />
