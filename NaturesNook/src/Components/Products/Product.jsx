@@ -16,7 +16,7 @@ export default function Product() {
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(null);
 
   const categories = [
-    { category: "homeware", name: "Homeware", src: {cat1} },
+    { category: "homeware", name: "Homeware", src: cat1 },
     { category: "onthego", name: "On-The-Go", src: "/src/assets/images/category/onthego.webp" },
     { category: "zerowaste", name: "Zero Waste Bathroom", src: "/src/assets/images/category/zerowaste.webp" },
     { category: "soaps", name: "Natural Soaps", src: "/src/assets/images/category/soaps.webp" },
