@@ -11,12 +11,12 @@ import Soaps from './Soaps/Soaps';
 import ZeroWaste from './Zerowaste/Zerowaste';
 import Custom from './Custom/Custom';
 import OnTheGo from './Onthego/Onthego';
-
+import cat1 from '../../assets/images/category/homeware.webp'
 export default function Product() {
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(null);
 
   const categories = [
-    { category: "homeware", name: "Homeware", src: "/src/assets/images/category/homeware.webp" },
+    { category: "homeware", name: "Homeware", src: {cat1} },
     { category: "onthego", name: "On-The-Go", src: "/src/assets/images/category/onthego.webp" },
     { category: "zerowaste", name: "Zero Waste Bathroom", src: "/src/assets/images/category/zerowaste.webp" },
     { category: "soaps", name: "Natural Soaps", src: "/src/assets/images/category/soaps.webp" },
