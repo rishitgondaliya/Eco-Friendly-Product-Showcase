@@ -33,12 +33,17 @@ export default function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link to="/about" className="hover:underline">
-                      About
+                      Our Story
                     </Link>
                   </li>
                   <li className="mb-4">
                     <Link to="/product" className="hover:underline">
                       Products
+                    </Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link to="/journal" className="hover:underline">
+                      Journal
                     </Link>
                   </li>
                   <li>
@@ -55,7 +60,7 @@ export default function Footer() {
                 <ul className="text-gray-500 font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://github.com/rishitgondaliya"
+                      href="https://github.com/rishitgondaliya/Eco-Friendly-Product-Showcase"
                       className="hover:underline"
                       target="_blank"
                       rel="noreferrer"
