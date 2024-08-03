@@ -23,12 +23,7 @@
 // export default function Journal_Main() {
 //     const router = createBrowserRouter(
 //         createRoutesFromElements(
-//         //   <Route path="/" element={<Layout />}>
-//         //     <Route index element={<Home />} />
-//         //     <Route path="home" element={<Home />} />
-//         //     <Route path="about" element={<About />} />
-//         //     <Route path="product" element={<Product />} />
-//         //     <Route path="product/:category" element={<Product />} />
+//        
 //         <Route >
 //             <Route path="journal" element={<Journal />} />
 //             <Route path='/sign-in' element={<SignIn />} />
