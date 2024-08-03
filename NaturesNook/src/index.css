@@ -8,7 +8,7 @@
 
 @layer utilities{
     .bg-header{
-        background-image: url('https://images.unsplash.com/photo-1627158191866-aa70f2100d55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        /* background-image: url('https://images.unsplash.com/photo-1627158191866-aa70f2100d55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
         background: linear-gradient(to right, red, blue, 0.3);
     }
 }
@@ -112,7 +112,7 @@
 
 .section-second {
     width: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./assets/v850-aum-10b.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./assets/home/v850-aum-10b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -225,7 +225,7 @@
 }
 
 .section-five {
-    background: url("./assets/bg-leaves.jpg");
+    background: url("./assets/home/bg_leaves.png");
 }
 
 .container40 {
