@@ -6,10 +6,20 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import Lightbox from "../Lightbox";
+import onthego1 from '../../../assets/images/onthego/onthego1.jpg'
+import onthego2 from '../../../assets/images/onthego/onthego2.webp'
+import onthego3 from '../../../assets/images/onthego/onthego3.jpg'
+import onthego4 from '../../../assets/images/onthego/onthego4.jpg'
+import onthego5 from '../../../assets/images/onthego/onthego5.jpg'
+import onthego6 from '../../../assets/images/onthego/onthego6.webp'
+import onthego7 from '../../../assets/images/onthego/onthego7.webp'
+import onthego8 from '../../../assets/images/onthego/onthego8.webp'
+import onthego9 from '../../../assets/images/onthego/onthego9.webp'
+import onthego10 from '../../../assets/images/onthego/onthego10.webp'
 
 const images = [
     {
-        src: "/src/assets/images/onthego/onthego1.jpg",
+        src: onthego1,
         category: "onthego",
         name: "Bamboo Cutlery Set (Green bag)",
         description: (
@@ -26,7 +36,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego2.webp",
+        src: onthego2,
         category: "onthego",
         name: "Dark Wood Cutlery Set",
         description: (
@@ -47,7 +57,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego3.jpg",
+        src: onthego3,
         category: "onthego",
         name: "Reusable Stainless Steel Water Bottle (Matt Effect White)",
         description: (
@@ -70,7 +80,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego4.jpg",
+        src: onthego4,
         category: "soaps",
         name: "Reusable Bamboo Drinking Straws | Natural Jute Bag (Pack of 6)",
         description: (
@@ -85,7 +95,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego5.jpg",
+        src: onthego5,
         category: "soaps",
         name: "Stainless Steel Reusable Straw Set | Ocean Inspired (Pack of 8)",
         description: (
@@ -103,7 +113,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego6.webp",
+        src: onthego6,
         category: "soaps",
         name: "Bamboo Cotton Buds | Eco Cotton Swabs",
         description: (
@@ -123,7 +133,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego7.webp",
+        src: onthego7,
         category: "soaps",
         name: "Reusable Straw Cleaning Brushes for Bamboo or Stainless Steel Straws",
         description: (
@@ -139,7 +149,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego8.webp",
+        src: onthego8,
         category: "onthego",
         name: "Reusable Bamboo Drinking Straws | Bulk Pack For Businesses (Not customised)",
         description: (
@@ -149,7 +159,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego9.webp",
+        src: onthego9,
         category: "onthego",
         name: "Bamboo Hairbrush | Sustainable Wooden Hair Brushes",
         description: (
@@ -169,7 +179,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/onthego/onthego10.webp",
+        src: onthego10,
         category: "onthego",
         name: "Beard Comb | Wooden Beard Grooming Kit For Men",
         description: (

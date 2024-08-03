@@ -6,10 +6,24 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import Lightbox from "../Lightbox";
+import homeware1 from '../../../assets/images/homeware/homeware1.webp'
+import homeware2 from '../../../assets/images/homeware/homeware2.webp'
+import homeware3 from '../../../assets/images/homeware/homeware3.webp'
+import homeware4 from '../../../assets/images/homeware/homeware4.webp'
+import homeware5 from '../../../assets/images/homeware/homeware5.webp'
+import homeware6 from '../../../assets/images/homeware/homeware6.jpg'
+import homeware7 from '../../../assets/images/homeware/homeware7.jpg'
+import homeware8 from '../../../assets/images/homeware/homeware8.jpg'
+import homeware9 from '../../../assets/images/homeware/homeware9.webp'
+import homeware10 from '../../../assets/images/homeware/homeware10.webp'
+import homeware11 from '../../../assets/images/homeware/homeware11.jpg'
+import homeware12 from '../../../assets/images/homeware/homeware12.jpg'
+import homeware13 from '../../../assets/images/homeware/homeware13.webp'
+import homeware14 from '../../../assets/images/homeware/homeware14.webp'
 
 const images = [
   {
-    src: "/src/assets/images/homeware/homeware1.webp",
+    src: homeware1,
     category: "homeware",
     name: "Eco-friendly Coconut Bowls & Spoons",
     description: (
@@ -30,7 +44,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware2.webp",
+    src: homeware2,
     category: "homeware",
     name: "Dark Wood Cutlery Set",
     description: (
@@ -51,7 +65,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware3.webp",
+    src: homeware3,
     category: "homeware",
     name: "Natural Bamboo Drinking Cups",
     description: (
@@ -68,7 +82,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware4.webp",
+    src: homeware4,
     category: "homeware",
     name: "Coconut Shell Tea Light Holder Set | Eco-Friendly, Unique & Unusual Tea Light Base",
     description: (
@@ -88,7 +102,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware5.webp",
+    src: homeware5,
     category: "homeware",
     name: "Bamboo Hairbrush | Sustainable Wooden Hair Brushes",
     description: (
@@ -108,27 +122,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware14.webp",
-    category: "homeware",
-    name: "Bamboo Cotton Buds | Eco Cotton Swabs",
-    description: (
-      <React.Fragment>
-        <p>Produced using eco-friendly bamboo and organic cotton, Nature&apos;s nook bamboo cotton buds are the best eco alternative to plastic q tips. We use a strong, thick and durable species of bamboo to ensure that our bamboo ear cleaning buds are difficult to break and supportive when you’re cleaning your ears.We use ethically sourced bamboo to produce our natural and organic hairbrush handles and package our bamboo hair brushes in a recycled zero waste kraft paper box.</p>
-        <br />
-        <p>Our bamboo cotton swabs come packaged in a rounded zero waste kraft paper box. Simply remove the lid and leave your eco cotton swabs in the bathroom, ready for use at any time!</p>
-        <br />
-        <p>Bamboo earbuds can also be used to remove eye makeup in hard to reach areas. Cotton swabs have an absorbent surface, perfect for removing makeup from the corner of your eyes.</p>
-        <br />
-        <h3 className="text-lg font-medium">Set Contains:</h3>
-        <ul>
-          <li>200 x Bamboo cotton buds</li>
-          <li>1 x Round kraft paper box</li>
-        </ul>
-      </React.Fragment>
-    ),
-  },
-  {
-    src: "/src/assets/images/homeware/homeware6.jpg",
+    src: homeware6,
     category: "homeware",
     name: "Replacement Heads for Long Handle Dish Brush",
     description: (
@@ -143,7 +137,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware7.jpg",
+    src: homeware7,
     category: "homeware",
     name: "Kitchen Dish Cloths • All-Purpose Natural Cleaning Cloth",
     description: (
@@ -162,7 +156,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware8.jpg",
+    src: homeware8,
     category: "homeware",
     name: "Bamboo Snack & Dip Bowls",
     description: (
@@ -181,7 +175,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware9.webp",
+    src: homeware9,
     category: "homeware",
     name: "Water Bottle Brush",
     description: (
@@ -198,7 +192,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware10.webp",
+    src: homeware10,
     category: "homeware",
     name: "Bamboo Salad Server Set | Salad Tongs (Spoon & Fork)",
     description: (
@@ -216,7 +210,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware11.jpg",
+    src: homeware11,
     category: "homeware",
     name: "Long Handle Bamboo Dish Brush",
     description: (
@@ -235,7 +229,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware12.webp",
+    src: homeware12,
     category: "homeware",
     name: "Coconut Shell Candle - Toasted Coconut Scent",
     description: (
@@ -252,7 +246,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/homeware/homeware13.webp",
+    src: homeware13,
     category: "homeware",
     name: "Coconut Cups | Natural Coco Shell Cup",
     description: (
@@ -271,6 +265,26 @@ const images = [
           <li>
             10cm x 9cm (400ml)
           </li>
+        </ul>
+      </React.Fragment>
+    ),
+  },
+  {
+    src: homeware14,
+    category: "homeware",
+    name: "Bamboo Cotton Buds | Eco Cotton Swabs",
+    description: (
+      <React.Fragment>
+        <p>Produced using eco-friendly bamboo and organic cotton, Nature&apos;s nook bamboo cotton buds are the best eco alternative to plastic q tips. We use a strong, thick and durable species of bamboo to ensure that our bamboo ear cleaning buds are difficult to break and supportive when you’re cleaning your ears.We use ethically sourced bamboo to produce our natural and organic hairbrush handles and package our bamboo hair brushes in a recycled zero waste kraft paper box.</p>
+        <br />
+        <p>Our bamboo cotton swabs come packaged in a rounded zero waste kraft paper box. Simply remove the lid and leave your eco cotton swabs in the bathroom, ready for use at any time!</p>
+        <br />
+        <p>Bamboo earbuds can also be used to remove eye makeup in hard to reach areas. Cotton swabs have an absorbent surface, perfect for removing makeup from the corner of your eyes.</p>
+        <br />
+        <h3 className="text-lg font-medium">Set Contains:</h3>
+        <ul>
+          <li>200 x Bamboo cotton buds</li>
+          <li>1 x Round kraft paper box</li>
         </ul>
       </React.Fragment>
     ),

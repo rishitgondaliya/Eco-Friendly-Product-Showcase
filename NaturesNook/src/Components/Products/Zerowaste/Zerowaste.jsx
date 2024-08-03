@@ -6,10 +6,22 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import Lightbox from "../Lightbox";
+import zw1 from '../../../assets/images/zerowaste/zerowaste1.webp'
+import zw2 from '../../../assets/images/zerowaste/zerowaste2.webp'
+import zw3 from '../../../assets/images/zerowaste/zerowaste3.webp'
+import zw4 from '../../../assets/images/soaps/ginger-soap.webp'
+import zw5 from '../../../assets/images/soaps/lime-soap.webp'
+import zw6 from '../../../assets/images/soaps/shaving-soap.jpg'
+import zw7 from '../../../assets/images/soaps/citrus-soap.webp'
+import zw8 from '../../../assets/images/zerowaste/zerowaste4.jpg'
+import zw9 from '../../../assets/images/zerowaste/zerowaste5.jpg'
+import zw10 from '../../../assets/images/zerowaste/zerowaste6.webp'
+import zw11 from '../../../assets/images/zerowaste/zerowaste7.jpg'
+import zw12 from '../../../assets/images/zerowaste/zerowaste8.jpg'
 
 const images = [
   {
-    src: "/src/assets/images/zerowaste/zerowaste1.webp",
+    src: zw1,
     category: "zerowaste",
     name: "Reusable Safety Razors for Women & Men | Eco-Friendly Metal Razor",
     description: (
@@ -29,7 +41,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste2.webp",
+    src: zw2,
     category: "zerowaste",
     name: "Bamboo Safety Razor | Reusable Bamboo Razor",
     description: (
@@ -51,7 +63,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste3.webp",
+    src: zw3,
     category: "zerowaste",
     name: "Rose Gold or Black Reusable Safety Razors | Natural Jute Travel Bag",
     description: (
@@ -72,7 +84,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/ginger-soap.webp",
+    src: zw4,
     category: "soaps",
     name: "Ginger & Spice Natural Exfoliant Bar",
     description: (
@@ -88,7 +100,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/lime-soap.webp",
+    src: zw5,
     category: "soaps",
     name: "Lime & Sea Salt Natural Soap Bar",
     description: (
@@ -104,23 +116,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/citrus-soap.webp",
-    category: "soaps",
-    name: "Citrus Natural Body Bar Soap",
-    description: (
-      <React.Fragment>
-        <p>Our refreshing citrus body bar is cold-pressed using green tea and lemon essential oils, creating a delicate harmony of sweet and zesty aromas. Perfect for enhancing a nighttime bath or awakening your senses in the morning.</p>
-        <br />
-        <p>Green tea is rich in vitamin b-2 which helps maintain collagen levels, improving your skin’s firmness and combating signs of ageing. The gentle herby flavour provides a subtle backdrop for the lemon essential oils in this soap, which bursts through with aromatic citrusy notes!</p>
-        <br />
-        <p><b>Perfect for:</b>Improving complexion, feeling refreshed, combating signs of ageing, rehydrating your skin</p>
-        <br />
-        <h3 className="text-lg font-medium">Size: 100g</h3>
-      </React.Fragment>
-    ),
-  },
-  {
-    src: "/src/assets/images/soaps/shaving-soap.jpg",
+    src: zw6,
     category: "soaps",
     name: "Shaving Soap Bars | Plastic-free Solid Natural Shaving Soaps",
     description: (
@@ -142,7 +138,23 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste4.jpg",
+    src: zw7,
+    category: "soaps",
+    name: "Citrus Natural Body Bar Soap",
+    description: (
+      <React.Fragment>
+        <p>Our refreshing citrus body bar is cold-pressed using green tea and lemon essential oils, creating a delicate harmony of sweet and zesty aromas. Perfect for enhancing a nighttime bath or awakening your senses in the morning.</p>
+        <br />
+        <p>Green tea is rich in vitamin b-2 which helps maintain collagen levels, improving your skin’s firmness and combating signs of ageing. The gentle herby flavour provides a subtle backdrop for the lemon essential oils in this soap, which bursts through with aromatic citrusy notes!</p>
+        <br />
+        <p><b>Perfect for:</b>Improving complexion, feeling refreshed, combating signs of ageing, rehydrating your skin</p>
+        <br />
+        <h3 className="text-lg font-medium">Size: 100g</h3>
+      </React.Fragment>
+    ),
+  },
+  {
+    src: zw8,
     category: "zerowaste",
     name: "Wooden Soap Dish | Eco Bathroom Soap Dishes",
     description: (
@@ -159,7 +171,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste5.jpg",
+    src: zw9,
     category: "zerowaste",
     name: "Natural Loofah | Organic Exfoliating Sponge",
     description: (
@@ -178,7 +190,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste6.webp",
+    src: zw10,
     category: "zerowaste",
     name: "Sisal Soap Bag | Mesh Soap Saver Pouch",
     description: (
@@ -197,7 +209,7 @@ const images = [
     )
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste7.jpg",
+    src: zw11,
     category: "zerowaste",
     name: "Beard Comb | Wooden Beard Grooming Kit For Men",
     description: (
@@ -219,7 +231,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/zerowaste/zerowaste8.jpg",
+    src: zw12,
     category: "zerowaste",
     name: "Razor Blade Disposal Tin",
     description: (

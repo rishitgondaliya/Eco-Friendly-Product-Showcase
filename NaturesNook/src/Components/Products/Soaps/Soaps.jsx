@@ -6,10 +6,18 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import Lightbox from "../Lightbox";
+import soap1 from '../../../assets/images/soaps/bodybar-soap.webp'
+import soap2 from '../../../assets/images/soaps/charcoal-soap.webp'
+import soap3 from '../../../assets/images/soaps/citrus-soap.webp'
+import soap4 from '../../../assets/images/soaps/coffee-soap.webp'
+import soap5 from '../../../assets/images/soaps/ginger-soap.webp'
+import soap6 from '../../../assets/images/soaps/lime-soap.webp'
+import soap7 from '../../../assets/images/soaps/shaving-soap.jpg'
+import soap8 from '../../../assets/images/soaps/travel-soap.webp'
 
 const images = [
   {
-    src: "/src/assets/images/soaps/bodybar-soap.webp",
+    src: soap1,
     category: "soaps",
     name: "Coconut Husk Natural Body Bar Soap",
     description: (
@@ -26,7 +34,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/charcoal-soap.webp",
+    src: soap2,
     category: "soaps",
     name: "Activated Charcoal & Cracked Black Pepper Exfoliant Soap Bar",
     description: (
@@ -44,7 +52,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/citrus-soap.webp",
+    src: soap3,
     category: "soaps",
     name: "Citrus Natural Body Bar Soap",
     description: (
@@ -60,7 +68,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/coffee-soap.webp",
+    src: soap4,
     category: "soaps",
     name: "Coffee Scrub Natural Exfoliant Soap Bar",
     description: (
@@ -76,7 +84,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/ginger-soap.webp",
+    src: soap5,
     category: "soaps",
     name: "Ginger & Spice Natural Exfoliant Bar",
     description: (
@@ -92,7 +100,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/lime-soap.webp",
+    src: soap6,
     category: "soaps",
     name: "Lime & Sea Salt Natural Soap Bar",
     description: (
@@ -108,7 +116,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/shaving-soap.jpg",
+    src: soap7,
     category: "soaps",
     name: "Shaving Soap Bars | Plastic-free Solid Natural Shaving Soaps",
     description: (
@@ -130,7 +138,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/images/soaps/travel-soap.webp",
+    src: soap8,
     category: "soaps",
     name: "Travel Soap Tin | Metal Soap Container",
     description: (

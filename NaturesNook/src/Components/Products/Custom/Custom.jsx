@@ -6,10 +6,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import Lightbox from "../Lightbox";
+import custom1 from '../../../assets/images/custom/custom1.webp'
+import custom2 from '../../../assets/images/custom/custom2.jpg'
+import custom3 from '../../../assets/images/custom/custom3.webp'
+import custom4 from '../../../assets/images/custom/custom4.jpg'
 
 const images = [
     {
-        src: "/src/assets/images/custom/custom1.webp",
+        src: custom1 ,
         category: "custom",
         name: "Reusable Bamboo Drinking Straws | Bulk Pack For Businesses (Not customised)",
         description: (
@@ -19,7 +23,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/custom/custom2.jpg",
+        src: custom2 ,
         category: "custom",
         name: "Custom Branded Bamboo Straws For Businesses or Weddings",
         description: (
@@ -42,7 +46,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/custom/custom3.webp",
+        src: custom3,
         category: "custom",
         name: "Reusable Straw Cleaning Brushes for Bamboo or Stainless Steel Straws",
         description: (
@@ -58,7 +62,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/images/custom/custom4.jpg",
+        src: custom4,
         category: "soaps",
         name: "Bags For Reusable Straws",
         description: (

@@ -12,15 +12,20 @@ import ZeroWaste from './Zerowaste/Zerowaste';
 import Custom from './Custom/Custom';
 import OnTheGo from './Onthego/Onthego';
 import cat1 from '../../assets/images/category/homeware.webp'
+import cat2 from '../../assets/images/category/onthego.webp'
+import cat3 from '../../assets/images/category/zerowaste.webp'
+import cat4 from '../../assets/images/category/soaps.webp'
+import cat5 from '../../assets/images/category/straw.webp'
+
 export default function Product() {
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(null);
 
   const categories = [
     { category: "homeware", name: "Homeware", src: cat1 },
-    { category: "onthego", name: "On-The-Go", src: "/src/assets/images/category/onthego.webp" },
-    { category: "zerowaste", name: "Zero Waste Bathroom", src: "/src/assets/images/category/zerowaste.webp" },
-    { category: "soaps", name: "Natural Soaps", src: "/src/assets/images/category/soaps.webp" },
-    { category: "custom", name: "Custom Eco-Friendly Products", src: "/src/assets/images/category/straw.webp" },
+    { category: "onthego", name: "On-The-Go", src: cat2 },
+    { category: "zerowaste", name: "Zero Waste Bathroom", src: cat3 },
+    { category: "soaps", name: "Natural Soaps", src: cat4 },
+    { category: "custom", name: "Custom Eco-Friendly Products", src: cat5 },
   ];
 
   const handleNextCategory = () => {
