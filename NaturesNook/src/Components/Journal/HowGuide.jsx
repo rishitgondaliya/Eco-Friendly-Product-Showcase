@@ -1,7 +1,7 @@
-import hg_1 from '../../assets/journal/hg_1.jpg'
-import hg_2 from '../../assets/journal/hg_2.jpg'
-import hg_3 from '../../assets/journal/hg_3.jpg'
-import hg_4 from '../../assets/journal/hg_4.jpg'
+import hg_1 from '../../assets/images/journal/hg_1.jpg'
+import hg_2 from '../../assets/images/journal/hg_2.jpg'
+import hg_3 from '../../assets/images/journal/hg_3.jpg'
+import hg_4 from '../../assets/images/journal/hg_4.jpg'
 import { Link } from 'react-router-dom'
 
 export default function HowGuide() {

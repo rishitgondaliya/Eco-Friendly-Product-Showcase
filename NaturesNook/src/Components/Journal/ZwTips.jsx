@@ -1,6 +1,6 @@
-import wt_1 from '../../assets/journal/wt_1.jpg'
-import wt_2 from '../../assets/journal/wt_2.jpg'
-import wt_3 from '../../assets/journal/wt_3.jpg'
+import wt_1 from '../../assets/images/journal/wt_1.jpg'
+import wt_2 from '../../assets/images/journal/wt_2.jpg'
+import wt_3 from '../../assets/images/journal/wt_3.jpg'
 import { Link } from 'react-router-dom'
 
 export default function ZWTips() {

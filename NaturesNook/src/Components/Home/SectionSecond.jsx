@@ -1,8 +1,8 @@
 import CardAsset from "./CardAsset";
-import jasmineFlowers from '../../assets/home/jasmine-flowers-vector.jpg';
-import naturePic from '../../assets/home/nature.jpg';
-import circleVector from '../../assets/home/circle-vector.png';
-import bgImg from '../../assets/home/v850-aum-10b.jpg'
+import jasmineFlowers from '../../assets/images/home/jasmine-flowers-vector.jpg';
+import naturePic from '../../assets/images/home/nature.jpg';
+import circleVector from '../../assets/images/home/circle-vector.png';
+import bgImg from '../../assets/images/home/v850-aum-10b.jpg'
 
 function SectionSecond() {
     const cardsData = [

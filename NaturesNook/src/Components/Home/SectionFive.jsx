@@ -1,4 +1,4 @@
-import bg_image from '../../assets/home/bg_leaves.png';
+import bg_image from '../../assets/images/home/bg_leaves.png';
 
 function SectionFive() {
     return (

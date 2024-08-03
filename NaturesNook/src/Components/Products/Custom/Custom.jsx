@@ -9,7 +9,7 @@ import Lightbox from "../Lightbox";
 
 const images = [
     {
-        src: "/src/assets/custom/custom1.webp",
+        src: "/src/assets/images/custom/custom1.webp",
         category: "custom",
         name: "Reusable Bamboo Drinking Straws | Bulk Pack For Businesses (Not customised)",
         description: (
@@ -19,7 +19,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/custom/custom2.jpg",
+        src: "/src/assets/images/custom/custom2.jpg",
         category: "custom",
         name: "Custom Branded Bamboo Straws For Businesses or Weddings",
         description: (
@@ -42,7 +42,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/custom/custom3.webp",
+        src: "/src/assets/images/custom/custom3.webp",
         category: "custom",
         name: "Reusable Straw Cleaning Brushes for Bamboo or Stainless Steel Straws",
         description: (
@@ -58,7 +58,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/custom/custom4.jpg",
+        src: "/src/assets/images/custom/custom4.jpg",
         category: "soaps",
         name: "Bags For Reusable Straws",
         description: (

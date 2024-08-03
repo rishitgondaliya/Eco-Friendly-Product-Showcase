@@ -9,7 +9,7 @@ import Lightbox from "../Lightbox";
 
 const images = [
     {
-        src: "/src/assets/onthego/onthego1.jpg",
+        src: "/src/assets/images/onthego/onthego1.jpg",
         category: "onthego",
         name: "Bamboo Cutlery Set (Green bag)",
         description: (
@@ -26,7 +26,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego2.webp",
+        src: "/src/assets/images/onthego/onthego2.webp",
         category: "onthego",
         name: "Dark Wood Cutlery Set",
         description: (
@@ -47,7 +47,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego3.jpg",
+        src: "/src/assets/images/onthego/onthego3.jpg",
         category: "onthego",
         name: "Reusable Stainless Steel Water Bottle (Matt Effect White)",
         description: (
@@ -70,7 +70,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego4.jpg",
+        src: "/src/assets/images/onthego/onthego4.jpg",
         category: "soaps",
         name: "Reusable Bamboo Drinking Straws | Natural Jute Bag (Pack of 6)",
         description: (
@@ -85,7 +85,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego5.jpg",
+        src: "/src/assets/images/onthego/onthego5.jpg",
         category: "soaps",
         name: "Stainless Steel Reusable Straw Set | Ocean Inspired (Pack of 8)",
         description: (
@@ -103,7 +103,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego6.webp",
+        src: "/src/assets/images/onthego/onthego6.webp",
         category: "soaps",
         name: "Bamboo Cotton Buds | Eco Cotton Swabs",
         description: (
@@ -123,7 +123,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego7.webp",
+        src: "/src/assets/images/onthego/onthego7.webp",
         category: "soaps",
         name: "Reusable Straw Cleaning Brushes for Bamboo or Stainless Steel Straws",
         description: (
@@ -139,7 +139,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego8.webp",
+        src: "/src/assets/images/onthego/onthego8.webp",
         category: "onthego",
         name: "Reusable Bamboo Drinking Straws | Bulk Pack For Businesses (Not customised)",
         description: (
@@ -149,7 +149,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego9.webp",
+        src: "/src/assets/images/onthego/onthego9.webp",
         category: "onthego",
         name: "Bamboo Hairbrush | Sustainable Wooden Hair Brushes",
         description: (
@@ -169,7 +169,7 @@ const images = [
         ),
     },
     {
-        src: "/src/assets/onthego/onthego10.webp",
+        src: "/src/assets/images/onthego/onthego10.webp",
         category: "onthego",
         name: "Beard Comb | Wooden Beard Grooming Kit For Men",
         description: (
@@ -191,7 +191,7 @@ const images = [
         ),
     },
 ];
-const Onthego = ({ onBack, onNext, onPrevious }) => {
+const Onthego = ({ onNext, onPrevious }) => {
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(null);
 

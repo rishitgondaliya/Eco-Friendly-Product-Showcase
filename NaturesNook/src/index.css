@@ -112,7 +112,7 @@
 
 .section-second {
     width: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./assets/home/v850-aum-10b.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./assets/images/home/v850-aum-10b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -225,7 +225,7 @@
 }
 
 .section-five {
-    background: url("./assets/home/bg_leaves.png");
+    background: url("./assets/images/home/bg_leaves.png");
 }
 
 .container40 {

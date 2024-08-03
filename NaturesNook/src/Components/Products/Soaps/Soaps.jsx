@@ -9,7 +9,7 @@ import Lightbox from "../Lightbox";
 
 const images = [
   {
-    src: "/src/assets/soaps/bodybar-soap.webp",
+    src: "/src/assets/images/soaps/bodybar-soap.webp",
     category: "soaps",
     name: "Coconut Husk Natural Body Bar Soap",
     description: (
@@ -26,7 +26,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/charcoal-soap.webp",
+    src: "/src/assets/images/soaps/charcoal-soap.webp",
     category: "soaps",
     name: "Activated Charcoal & Cracked Black Pepper Exfoliant Soap Bar",
     description: (
@@ -44,7 +44,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/citrus-soap.webp",
+    src: "/src/assets/images/soaps/citrus-soap.webp",
     category: "soaps",
     name: "Citrus Natural Body Bar Soap",
     description: (
@@ -60,7 +60,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/coffee-soap.webp",
+    src: "/src/assets/images/soaps/coffee-soap.webp",
     category: "soaps",
     name: "Coffee Scrub Natural Exfoliant Soap Bar",
     description: (
@@ -76,7 +76,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/ginger-soap.webp",
+    src: "/src/assets/images/soaps/ginger-soap.webp",
     category: "soaps",
     name: "Ginger & Spice Natural Exfoliant Bar",
     description: (
@@ -92,7 +92,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/lime-soap.webp",
+    src: "/src/assets/images/soaps/lime-soap.webp",
     category: "soaps",
     name: "Lime & Sea Salt Natural Soap Bar",
     description: (
@@ -108,7 +108,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/shaving-soap.jpg",
+    src: "/src/assets/images/soaps/shaving-soap.jpg",
     category: "soaps",
     name: "Shaving Soap Bars | Plastic-free Solid Natural Shaving Soaps",
     description: (
@@ -130,7 +130,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/travel-soap.webp",
+    src: "/src/assets/images/soaps/travel-soap.webp",
     category: "soaps",
     name: "Travel Soap Tin | Metal Soap Container",
     description: (
@@ -150,7 +150,7 @@ const images = [
   },
 ];
 
-const Soaps = ({ onBack, onNext, onPrevious }) => {
+const Soaps = ({ onNext, onPrevious }) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(null);
 

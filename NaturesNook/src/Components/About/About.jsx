@@ -3,9 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
-import img1 from '../../assets/about/image1.webp';
-import img2 from '../../assets/about/image2.webp';
-import img3 from '../../assets/about/image3.webp';
+import img1 from '../../assets/images/about/image1.webp';
+import img2 from '../../assets/images/about/image2.webp';
+import img3 from '../../assets/images/about/image3.webp';
 
 export default function About() {
     const navigate = useNavigate();

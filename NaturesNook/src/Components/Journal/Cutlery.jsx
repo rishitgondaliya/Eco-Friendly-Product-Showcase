@@ -1,6 +1,6 @@
-import cutlery_1 from "../../assets/journal/cutlery_1.jpg"
-import cutlery_2 from "../../assets/journal/cutlery_2.jpg"
-import cutlery_3 from "../../assets/journal/cutlery_3.jpg"
+import cutlery_1 from "../../assets/images/journal/cutlery_1.jpg"
+import cutlery_2 from "../../assets/images/journal/cutlery_2.jpg"
+import cutlery_3 from "../../assets/images/journal/cutlery_3.jpg"
 import { Link } from "react-router-dom";
 export default function Cutlery() {
   return (

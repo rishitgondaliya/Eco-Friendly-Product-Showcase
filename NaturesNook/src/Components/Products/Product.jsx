@@ -16,11 +16,11 @@ export default function Product() {
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(null);
 
   const categories = [
-    { category: "homeware", name: "Homeware", src: "/src/assets/category/homeware.webp" },
-    { category: "onthego", name: "On-The-Go", src: "/src/assets/category/onthego.webp" },
-    { category: "zerowaste", name: "Zero Waste Bathroom", src: "/src/assets/category/zerowaste.webp" },
-    { category: "soaps", name: "Natural Soaps", src: "/src/assets/category/soaps.webp" },
-    { category: "custom", name: "Custom Eco-Friendly Products", src: "/src/assets/category/straw.webp" },
+    { category: "homeware", name: "Homeware", src: "/src/assets/images/category/homeware.webp" },
+    { category: "onthego", name: "On-The-Go", src: "/src/assets/images/category/onthego.webp" },
+    { category: "zerowaste", name: "Zero Waste Bathroom", src: "/src/assets/images/category/zerowaste.webp" },
+    { category: "soaps", name: "Natural Soaps", src: "/src/assets/images/category/soaps.webp" },
+    { category: "custom", name: "Custom Eco-Friendly Products", src: "/src/assets/images/category/straw.webp" },
   ];
 
   const handleNextCategory = () => {

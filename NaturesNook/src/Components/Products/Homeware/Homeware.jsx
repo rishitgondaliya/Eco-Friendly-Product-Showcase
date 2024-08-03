@@ -9,7 +9,7 @@ import Lightbox from "../Lightbox";
 
 const images = [
   {
-    src: "/src/assets/homeware/homeware1.webp",
+    src: "/src/assets/images/homeware/homeware1.webp",
     category: "homeware",
     name: "Eco-friendly Coconut Bowls & Spoons",
     description: (
@@ -30,7 +30,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware2.webp",
+    src: "/src/assets/images/homeware/homeware2.webp",
     category: "homeware",
     name: "Dark Wood Cutlery Set",
     description: (
@@ -51,7 +51,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware3.webp",
+    src: "/src/assets/images/homeware/homeware3.webp",
     category: "homeware",
     name: "Natural Bamboo Drinking Cups",
     description: (
@@ -68,7 +68,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware4.webp",
+    src: "/src/assets/images/homeware/homeware4.webp",
     category: "homeware",
     name: "Coconut Shell Tea Light Holder Set | Eco-Friendly, Unique & Unusual Tea Light Base",
     description: (
@@ -88,7 +88,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware5.webp",
+    src: "/src/assets/images/homeware/homeware5.webp",
     category: "homeware",
     name: "Bamboo Hairbrush | Sustainable Wooden Hair Brushes",
     description: (
@@ -108,7 +108,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware14.webp",
+    src: "/src/assets/images/homeware/homeware14.webp",
     category: "homeware",
     name: "Bamboo Cotton Buds | Eco Cotton Swabs",
     description: (
@@ -128,7 +128,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware6.jpg",
+    src: "/src/assets/images/homeware/homeware6.jpg",
     category: "homeware",
     name: "Replacement Heads for Long Handle Dish Brush",
     description: (
@@ -143,7 +143,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware7.jpg",
+    src: "/src/assets/images/homeware/homeware7.jpg",
     category: "homeware",
     name: "Kitchen Dish Cloths • All-Purpose Natural Cleaning Cloth",
     description: (
@@ -162,7 +162,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware8.jpg",
+    src: "/src/assets/images/homeware/homeware8.jpg",
     category: "homeware",
     name: "Bamboo Snack & Dip Bowls",
     description: (
@@ -181,7 +181,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware9.webp",
+    src: "/src/assets/images/homeware/homeware9.webp",
     category: "homeware",
     name: "Water Bottle Brush",
     description: (
@@ -198,7 +198,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware10.webp",
+    src: "/src/assets/images/homeware/homeware10.webp",
     category: "homeware",
     name: "Bamboo Salad Server Set | Salad Tongs (Spoon & Fork)",
     description: (
@@ -216,7 +216,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware11.jpg",
+    src: "/src/assets/images/homeware/homeware11.jpg",
     category: "homeware",
     name: "Long Handle Bamboo Dish Brush",
     description: (
@@ -235,7 +235,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware12.webp",
+    src: "/src/assets/images/homeware/homeware12.webp",
     category: "homeware",
     name: "Coconut Shell Candle - Toasted Coconut Scent",
     description: (
@@ -252,7 +252,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/homeware/homeware13.webp",
+    src: "/src/assets/images/homeware/homeware13.webp",
     category: "homeware",
     name: "Coconut Cups | Natural Coco Shell Cup",
     description: (

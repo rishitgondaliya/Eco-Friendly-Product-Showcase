@@ -1,4 +1,4 @@
-import ns_1 from "../../assets/journal/ns_1.jpg"
+import ns_1 from "../../assets/images/journal/ns_1.jpg"
 import { Link } from 'react-router-dom'
 
 export default function NaturalSoaps() {

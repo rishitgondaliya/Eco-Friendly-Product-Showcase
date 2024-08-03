@@ -7,7 +7,7 @@ import {
   faGithub,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/images/logo2.png";
 
 export default function Footer() {
   return (

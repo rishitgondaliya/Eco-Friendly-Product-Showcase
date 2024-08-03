@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import CommentMe from "./CommentMe";
-import wt_1 from "../../assets/journal/wt_1.jpg";
-import z_1 from "../../assets/journal/z_1.jpg";
-import z_3 from "../../assets/journal/z_3.jpg";
+import wt_1 from "../../assets/images/journal/wt_1.jpg";
+import z_1 from "../../assets/images/journal/z_1.jpg";
+import z_3 from "../../assets/images/journal/z_3.jpg";
 
 export default function ZeroWaste() {
   return (

@@ -1,6 +1,6 @@
-import sl_1 from '../../assets/journal/sl_1.jpg'
-import sl_2 from '../../assets/journal/sl_2.jpg'
-import sl_3 from '../../assets/journal/sl_3.jpg'
+import sl_1 from '../../assets/images/journal/sl_1.jpg'
+import sl_2 from '../../assets/images/journal/sl_2.jpg'
+import sl_3 from '../../assets/images/journal/sl_3.jpg'
 import { Link } from 'react-router-dom'
 
 export default function LifeStayle() {

@@ -1,10 +1,10 @@
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import CommentMe from "./CommentMe";
-import razor_1 from "../../assets/journal/razor_1.jpg";
-import man from "../../assets/journal/man.jpg";
-import fourgirl from "../../assets/journal/fourgirl.jpg";
-import singlegirl from "../../assets/journal/singlegirl.jpg";
+import razor_1 from "../../assets/images/journal/razor_1.jpg";
+import man from "../../assets/images/journal/man.jpg";
+import fourgirl from "../../assets/images/journal/fourgirl.jpg";
+import singlegirl from "../../assets/images/journal/singlegirl.jpg";
 
 export default function Razor() {
   return (

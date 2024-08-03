@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import CommentMe from "./CommentMe";
-import candle_3 from "../../assets/journal/candle_3.jpg";
-import c_1 from "../../assets/journal/c_1.jpg";
-import c_2 from "../../assets/journal/c_2.jpg";
-import c_3 from "../../assets/journal/c_3.jpg";
-import c_4 from "../../assets/journal/c_4.jpg";
+import candle_3 from "../../assets/images/journal/candle_3.jpg";
+import c_1 from "../../assets/images/journal/c_1.jpg";
+import c_2 from "../../assets/images/journal/c_2.jpg";
+import c_3 from "../../assets/images/journal/c_3.jpg";
+import c_4 from "../../assets/images/journal/c_4.jpg";
 
 export default function Candle() {
   return (

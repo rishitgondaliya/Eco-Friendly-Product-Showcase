@@ -9,7 +9,7 @@ import Lightbox from "../Lightbox";
 
 const images = [
   {
-    src: "/src/assets/zerowaste/zerowaste1.webp",
+    src: "/src/assets/images/zerowaste/zerowaste1.webp",
     category: "zerowaste",
     name: "Reusable Safety Razors for Women & Men | Eco-Friendly Metal Razor",
     description: (
@@ -29,7 +29,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/zerowaste/zerowaste2.webp",
+    src: "/src/assets/images/zerowaste/zerowaste2.webp",
     category: "zerowaste",
     name: "Bamboo Safety Razor | Reusable Bamboo Razor",
     description: (
@@ -51,7 +51,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/zerowaste/zerowaste3.webp",
+    src: "/src/assets/images/zerowaste/zerowaste3.webp",
     category: "zerowaste",
     name: "Rose Gold or Black Reusable Safety Razors | Natural Jute Travel Bag",
     description: (
@@ -72,7 +72,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/ginger-soap.webp",
+    src: "/src/assets/images/soaps/ginger-soap.webp",
     category: "soaps",
     name: "Ginger & Spice Natural Exfoliant Bar",
     description: (
@@ -88,7 +88,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/lime-soap.webp",
+    src: "/src/assets/images/soaps/lime-soap.webp",
     category: "soaps",
     name: "Lime & Sea Salt Natural Soap Bar",
     description: (
@@ -104,7 +104,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/citrus-soap.webp",
+    src: "/src/assets/images/soaps/citrus-soap.webp",
     category: "soaps",
     name: "Citrus Natural Body Bar Soap",
     description: (
@@ -120,7 +120,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/soaps/shaving-soap.jpg",
+    src: "/src/assets/images/soaps/shaving-soap.jpg",
     category: "soaps",
     name: "Shaving Soap Bars | Plastic-free Solid Natural Shaving Soaps",
     description: (
@@ -142,7 +142,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/zerowaste/zerowaste4.jpg",
+    src: "/src/assets/images/zerowaste/zerowaste4.jpg",
     category: "zerowaste",
     name: "Wooden Soap Dish | Eco Bathroom Soap Dishes",
     description: (
@@ -159,7 +159,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/zerowaste/zerowaste5.jpg",
+    src: "/src/assets/images/zerowaste/zerowaste5.jpg",
     category: "zerowaste",
     name: "Natural Loofah | Organic Exfoliating Sponge",
     description: (
@@ -178,7 +178,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/zerowaste/zerowaste6.webp",
+    src: "/src/assets/images/zerowaste/zerowaste6.webp",
     category: "zerowaste",
     name: "Sisal Soap Bag | Mesh Soap Saver Pouch",
     description: (
@@ -197,7 +197,7 @@ const images = [
     )
   },
   {
-    src: "/src/assets/zerowaste/zerowaste7.jpg",
+    src: "/src/assets/images/zerowaste/zerowaste7.jpg",
     category: "zerowaste",
     name: "Beard Comb | Wooden Beard Grooming Kit For Men",
     description: (
@@ -219,7 +219,7 @@ const images = [
     ),
   },
   {
-    src: "/src/assets/zerowaste/zerowaste8.jpg",
+    src: "/src/assets/images/zerowaste/zerowaste8.jpg",
     category: "zerowaste",
     name: "Razor Blade Disposal Tin",
     description: (

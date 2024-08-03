@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import reuseImg from '../../assets/home/reuse-img.jpg';
-import reduseImg from '../../assets/home/reduce-img.jpg';
-import recycleImg from '../../assets/home/recycle-image.jpeg';
-import bagImg from '../../assets/home/bag-img.png';
+import reuseImg from '../../assets/images/home/reuse-img.jpg';
+import reduseImg from '../../assets/images/home/reduce-img.jpg';
+import recycleImg from '../../assets/images/home/recycle-image.jpeg';
+import bagImg from '../../assets/images/home/bag-img.png';
 
 const sections = [
     {

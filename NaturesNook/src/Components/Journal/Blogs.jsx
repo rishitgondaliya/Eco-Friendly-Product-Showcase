@@ -1,5 +1,5 @@
 import { useState } from "react";
-import img4 from "../../assets/journal/sky.jpg";
+import img4 from "../../assets/images/journal/sky.jpg";
 import BambooProducts from "./BambooProducts";
 import Cutlery from "./Cutlery";
 import AllActivities from "./AllActivities";

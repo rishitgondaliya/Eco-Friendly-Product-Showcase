@@ -1,6 +1,6 @@
-import candle_1 from "../../assets/journal/candle_1.jpg"
-import candle_2 from "../../assets/journal/candle_2.jpg"
-import candle_3 from "../../assets/journal/candle_3.jpg"
+import candle_1 from "../../assets/images/journal/candle_1.jpg"
+import candle_2 from "../../assets/images/journal/candle_2.jpg"
+import candle_3 from "../../assets/images/journal/candle_3.jpg"
 import { Link } from 'react-router-dom'
 
 export default function ShellCandles() {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import plant1 from '../../assets/home/plant1.webp';
-import plant2 from '../../assets/home/plant2.webp';
+import plant1 from '../../assets/images/home/plant1.webp';
+import plant2 from '../../assets/images/home/plant2.webp';
 import { useNavigate } from "react-router-dom";
 
 function DisplayMain() {

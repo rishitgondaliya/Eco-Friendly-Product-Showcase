@@ -1,5 +1,5 @@
-import sk_1 from '../../assets/journal/sk_1.jpg'
-import sk_2 from '../../assets/journal/sk_2.jpg'
+import sk_1 from '../../assets/images/journal/sk_1.jpg'
+import sk_2 from '../../assets/images/journal/sk_2.jpg'
 import { Link } from 'react-router-dom'
 
 export default function ZWKitchen() {

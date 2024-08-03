@@ -1,7 +1,7 @@
-import ss_1 from '../../assets/journal/ss_1.jpg'
-import ss_2 from '../../assets/journal/ss_2.jpg'
-import ss_3 from '../../assets/journal/ss_3.jpg'
-import ss_4 from '../../assets/journal/ss_4.jpg'
+import ss_1 from '../../assets/images/journal/ss_1.jpg'
+import ss_2 from '../../assets/images/journal/ss_2.jpg'
+import ss_3 from '../../assets/images/journal/ss_3.jpg'
+import ss_4 from '../../assets/images/journal/ss_4.jpg'
 import { Link } from 'react-router-dom'
 
 export default function ShavingSoaps() {

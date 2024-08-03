@@ -1,5 +1,5 @@
-import coco_3 from "../../assets/journal/coco_3.jpg"
-import coco_4 from "../../assets/journal/coco_4.jpg"
+import coco_3 from "../../assets/images/journal/coco_3.jpg"
+import coco_4 from "../../assets/images/journal/coco_4.jpg"
 import { Link } from 'react-router-dom'
 
 export default function HealthyEating() {

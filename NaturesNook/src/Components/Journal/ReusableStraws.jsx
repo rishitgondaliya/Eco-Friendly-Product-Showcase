@@ -1,4 +1,4 @@
-import bp_2 from "../../assets/journal/bp_2.jpg"
+import bp_2 from "../../assets/images/journal/bp_2.jpg"
 import { Link } from 'react-router-dom'
 
 export default function ReusableStraws() {

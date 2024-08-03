@@ -1,5 +1,5 @@
-import bp_3 from "../../assets/journal/bp_3.jpg"
-import razor_3 from "../../assets/journal/razor_3.jpg"
+import bp_3 from "../../assets/images/journal/bp_3.jpg"
+import razor_3 from "../../assets/images/journal/razor_3.jpg"
 import { Link } from 'react-router-dom'
 
 export default function ZWProducts() {

@@ -1,8 +1,8 @@
-import wooden_product from '../../assets/home/wooden_product.webp';
-import image_tree from '../../assets/home/tree1.webp';
-import template_leaf from '../../assets/home/template_leaf.webp';
-import branch_icon from '../../assets/home/olive-branches-award-symbol.png';
-import leaves from '../../assets/home/two-leaves.png';
+import wooden_product from '../../assets/images/home/wooden_product.webp';
+import image_tree from '../../assets/images/home/tree1.webp';
+import template_leaf from '../../assets/images/home/template_leaf.webp';
+import branch_icon from '../../assets/images/home/olive-branches-award-symbol.png';
+import leaves from '../../assets/images/home/two-leaves.png';
 
 function SectionThird() {
     return (

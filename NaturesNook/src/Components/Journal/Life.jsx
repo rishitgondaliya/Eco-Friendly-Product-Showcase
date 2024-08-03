@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import CommentMe from "./CommentMe";
-import l_2 from '../../assets/journal/l_2.jpg'
-import l_1 from '../../assets/journal/l_1.jpg'
+import l_2 from '../../assets/images/journal/l_2.jpg'
+import l_1 from '../../assets/images/journal/l_1.jpg'
 
 export default function Life() {
   return (

@@ -1,10 +1,10 @@
 import CommentMe from './CommentMe'
 import { FaArrowLeft } from "react-icons/fa";
-import bp_3 from '../../assets/journal/bp_3.jpg'
-import b_1 from '../../assets/journal/b_1.jpg'
-import b_2 from '../../assets/journal/b_2.jpg'
-import b_3 from '../../assets/journal/b_3.jpg'
-import b_4 from '../../assets/journal/b_4.jpg'
+import bp_3 from '../../assets/images/journal/bp_3.jpg'
+import b_1 from '../../assets/images/journal/b_1.jpg'
+import b_2 from '../../assets/images/journal/b_2.jpg'
+import b_3 from '../../assets/images/journal/b_3.jpg'
+import b_4 from '../../assets/images/journal/b_4.jpg'
 import { Link } from 'react-router-dom'
 
 export default function Bamboo() {

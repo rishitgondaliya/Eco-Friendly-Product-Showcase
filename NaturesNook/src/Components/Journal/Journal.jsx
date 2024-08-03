@@ -1,5 +1,5 @@
-import img4 from "../../assets/journal/sky.jpg";
-import dish from "../../assets/journal/dishwasher.jpg";
+import img4 from "../../assets/images/journal/sky.jpg";
+import dish from "../../assets/images/journal/dishwasher.jpg";
 import Cutlery from "./Cutlery";
 import { Link } from "react-router-dom";
 

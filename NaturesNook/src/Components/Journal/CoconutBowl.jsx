@@ -1,7 +1,7 @@
-import coco_1 from "../../assets/journal/coco_1.jpg"
-import coco_2 from "../../assets/journal/coco_2.jpg"
-import coco_3 from "../../assets/journal/coco_3.jpg"
-import coco_4 from "../../assets/journal/coco_4.jpg"
+import coco_1 from "../../assets/images/journal/coco_1.jpg"
+import coco_2 from "../../assets/images/journal/coco_2.jpg"
+import coco_3 from "../../assets/images/journal/coco_3.jpg"
+import coco_4 from "../../assets/images/journal/coco_4.jpg"
 import { Link } from 'react-router-dom'
 
 export default function CoconutBowl() {

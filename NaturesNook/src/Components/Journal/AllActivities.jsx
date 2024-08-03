@@ -1,11 +1,11 @@
-import razor_1 from "../../assets/journal/razor_3.jpg";
-import razor_2 from "../../assets/journal/razor_1.jpg";
-import gift_1 from "../../assets/journal/gift_1.jpg";
-import dish from "../../assets/journal/dishwasher.jpg";
-import gift_2 from "../../assets/journal/gift_2.jpg";
-import eat_1 from "../../assets/journal/eat_1.jpg";
-import kitchen_1 from "../../assets/journal/kitchen_1.jpg";
-import candle_1 from "../../assets/journal/candle_1.jpg";
+import razor_1 from "../../assets/images//journal/razor_3.jpg";
+import razor_2 from "../../assets/images//journal/razor_1.jpg";
+import gift_1 from "../../assets/images//journal/gift_1.jpg";
+import dish from "../../assets/images//journal/dishwasher.jpg";
+import gift_2 from "../../assets/images//journal/gift_2.jpg";
+import eat_1 from "../../assets/images//journal/eat_1.jpg";
+import kitchen_1 from "../../assets/images//journal/kitchen_1.jpg";
+import candle_1 from "../../assets/images//journal/candle_1.jpg";
 import { Link } from "react-router-dom";
 
 export default function AllActivities() {

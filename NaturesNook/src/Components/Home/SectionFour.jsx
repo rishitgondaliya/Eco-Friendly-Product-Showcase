@@ -1,7 +1,7 @@
-import wooden_product1 from '../../assets/home/card_image1.png';
-import wooden_product2 from '../../assets/home/card_image2.jpg';
-import wooden_product3 from '../../assets/home/card_image3.png';
-import recycle from '../../assets/home/recycle.jpg';
+import wooden_product1 from '../../assets/images/home/card_image1.png';
+import wooden_product2 from '../../assets/images/home/card_image2.jpg';
+import wooden_product3 from '../../assets/images/home/card_image3.png';
+import recycle from '../../assets/images/home/recycle.jpg';
 
 function SectionFour() {
   return (
