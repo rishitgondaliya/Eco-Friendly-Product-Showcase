@@ -1,30 +1,29 @@
-import "./App.css";
 import {
   Route,
   RouterProvider,
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Layout from "../Components/Layout/Layout";
-import Home from "../Components/Home/Home";
-import About from "../Components/About/About";
-import Contact from "../Components/Contact/Contact";
-import Product from "../Components/Products/Product";
-import OurStory from '../Components/Journal/OurStory'
-import SignIn from '../Components/Auth/SignIn';
-import SignUp from '../Components/Auth/SignUp';
+import Layout from "./Components/Layout/Layout";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Product from "./Components/Products/Product";
+import OurStory from './Components/Journal/OurStory'
+import SignIn from './Components/Auth/SignIn';
+import SignUp from './Components/Auth/SignUp';
 // import AuthForm from '../Components/Auth/AuthForm'
-import Cutlery from '../Components/Journal/Cutlery';
-import Blogs from '../Components/Journal/Blogs';
-import Razor from "../Components/Journal/Razor";
-import AllActivities from '../Components/Journal/AllActivities';
-import Bamboo from '../Components/Journal/Bamboo';
-import Coconut from '../Components/Journal/Coconut';
-import Candle from '../Components/Journal/Candle';
-import ZeroWaste from '../Components/Journal/ZeroWaste';
-import Straws from '../Components/Journal/Straws';
-import Life from '../Components/Journal/Life';
-import Soaps from '../Components/Journal/Soaps';
+import Cutlery from './Components/Journal/Cutlery';
+import Blogs from './Components/Journal/Blogs';
+import Razor from "./Components/Journal/Razor";
+import AllActivities from './Components/Journal/AllActivities';
+import Bamboo from './Components/Journal/Bamboo';
+import Coconut from './Components/Journal/Coconut';
+import Candle from './Components/Journal/Candle';
+import ZeroWaste from './Components/Journal/ZeroWaste';
+import Straws from './Components/Journal/Straws';
+import Life from './Components/Journal/Life';
+import Soaps from './Components/Journal/Soaps';
 
 
 function App() {
