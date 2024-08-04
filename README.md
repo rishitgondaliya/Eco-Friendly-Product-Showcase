@@ -12,6 +12,6 @@ The Eco-Friendly Product Showcase is a web platform designed to highlight and pr
 - **Journal Page**: Stories and blogs related to eco-friendly living.
 - **User Authentication**: Sign in and Sign up functionality.
 
-![alt text](src/assets/images/ss.png)
+![alt text](NaturesNook/src/assets/images/ss.png)
 
 ## Live Demo: [naturesnook-eco](https://naturesnook-eco.netlify.app)
