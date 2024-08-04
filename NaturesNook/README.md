@@ -14,4 +14,4 @@ The Eco-Friendly Product Showcase is a web platform designed to highlight and pr
 
 ![alt text](src/assets/images/ss.png)
 
-Live Demo: [naturesnook-eco](https://naturesnook-eco.netlify.app)
+# Live Demo: [naturesnook-eco](https://naturesnook-eco.netlify.app)
