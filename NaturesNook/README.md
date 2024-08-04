@@ -11,22 +11,7 @@ The Eco-Friendly Product Showcase is a web platform designed to highlight and pr
 - **Product Page**: Display of various product categories.
 - **Journal Page**: Stories and blogs related to eco-friendly living.
 - **User Authentication**: Sign in and Sign up functionality.
-- **Navigation**: Smooth navigation with scroll-to-top functionality on route change.
 
-![alt text](image.png)
+![alt text](src/assets/images/ss.png)
+
 Live Demo: [naturesnook-eco](https://naturesnook-eco.netlify.app)
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps:
-
-### Prerequisites
-
-- Node.js (v14.x or higher recommended)
-- npm (v6.x or higher recommended)
-
-### Installation
-
-1. Clone the repo:
-
-   git clone https://github.com/rishitgondaliya/Eco-Friendly-Product-Showcase.git
